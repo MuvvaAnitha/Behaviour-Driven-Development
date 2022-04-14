@@ -1,0 +1,207 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9338417800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestFaceBookSignUp.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Password Minimum length validation message",
+        "description": "",
+        "id": "facebook;verify-password-minimum-length-validation-message;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 340971800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestFaceBookSignUp.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on FaceBook Login or SignUp Page",
+            "match": {
+              "location": "TestFaceBookSignUp.IamOnFacebookLoginOrSignUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63126900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click create new account",
+            "match": {
+              "location": "TestFaceBookSignUp.clickCreateNewAcccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 640277500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill firstname \"TestFn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestFn",
+                  "offset": 18
+                }
+              ],
+              "location": "TestFaceBookSignUp.fillFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70268200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I fill lastName \"TestLn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestLn",
+                  "offset": 17
+                }
+              ],
+              "location": "TestFaceBookSignUp.fillLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73180000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill mobileNumberOrEmailId \"1234567890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 30
+                }
+              ],
+              "location": "TestFaceBookSignUp.fillMobileNumOrEmailId(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63976500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I fill password \"1234\" with less than 6 characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 17
+                }
+              ],
+              "location": "TestFaceBookSignUp.fillPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124022300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select date of birth \"1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1990",
+                  "offset": 24
+                }
+              ],
+              "location": "TestFaceBookSignUp.selectDateofBirth(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62498500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Male",
+                  "offset": 17
+                }
+              ],
+              "location": "TestFaceBookSignUp.selectGender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32274919700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I clicked on signup",
+            "match": {
+              "location": "TestFaceBookSignUp.clickSignUp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15654700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validation message \"An error occurred. Please try again.\" should be displayed stating Your password must be at least 6 characters long",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An error occurred. Please try again.",
+                  "offset": 20
+                }
+              ],
+              "location": "TestFaceBookSignUp.verifyValidationMessage(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FaceBook",
+    "description": "",
+    "id": "facebook",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Facebook.feature",
+    "tags": []
+  }
+]

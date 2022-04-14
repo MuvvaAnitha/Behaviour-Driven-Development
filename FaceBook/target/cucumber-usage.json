@@ -1,0 +1,182 @@
+[
+  {
+    "source": "^I fill mobileNumberOrEmailId \"(.*)\"$",
+    "steps": [
+      {
+        "name": "I fill mobileNumberOrEmailId \"1234567890\"",
+        "aggregatedDurations": {
+          "average": 0.07318,
+          "median": 0.07318
+        },
+        "durations": [
+          {
+            "duration": 0.07318,
+            "location": "src/test/resources/Features/Facebook.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I clicked on signup$",
+    "steps": [
+      {
+        "name": "I clicked on signup",
+        "aggregatedDurations": {
+          "average": 32.2749197,
+          "median": 32.2749197
+        },
+        "durations": [
+          {
+            "duration": 32.2749197,
+            "location": "src/test/resources/Features/Facebook.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I fill firstname \"(.*)\"$",
+    "steps": [
+      {
+        "name": "I fill firstname \"TestFn\"",
+        "aggregatedDurations": {
+          "average": 0.6402775,
+          "median": 0.6402775
+        },
+        "durations": [
+          {
+            "duration": 0.6402775,
+            "location": "src/test/resources/Features/Facebook.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I fill password \"(.*)\" with less than 6 characters$",
+    "steps": [
+      {
+        "name": "I fill password \"1234\" with less than 6 characters",
+        "aggregatedDurations": {
+          "average": 0.0639765,
+          "median": 0.0639765
+        },
+        "durations": [
+          {
+            "duration": 0.0639765,
+            "location": "src/test/resources/Features/Facebook.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click create new account$",
+    "steps": [
+      {
+        "name": "I click create new account",
+        "aggregatedDurations": {
+          "average": 0.0631269,
+          "median": 0.0631269
+        },
+        "durations": [
+          {
+            "duration": 0.0631269,
+            "location": "src/test/resources/Features/Facebook.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I fill lastName \"(.*)\"$",
+    "steps": [
+      {
+        "name": "I fill lastName \"TestLn\"",
+        "aggregatedDurations": {
+          "average": 0.0702682,
+          "median": 0.0702682
+        },
+        "durations": [
+          {
+            "duration": 0.0702682,
+            "location": "src/test/resources/Features/Facebook.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select date of birth \"(.*)\"$",
+    "steps": [
+      {
+        "name": "I select date of birth \"1990\"",
+        "aggregatedDurations": {
+          "average": 0.1240223,
+          "median": 0.1240223
+        },
+        "durations": [
+          {
+            "duration": 0.1240223,
+            "location": "src/test/resources/Features/Facebook.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^validation message \"(.*)\" should be displayed stating Your password must be at least 6 characters long$",
+    "steps": [
+      {
+        "name": "validation message \"An error occurred. Please try again.\" should be displayed stating Your password must be at least 6 characters long",
+        "aggregatedDurations": {
+          "average": 0.0156547,
+          "median": 0.0156547
+        },
+        "durations": [
+          {
+            "duration": 0.0156547,
+            "location": "src/test/resources/Features/Facebook.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on FaceBook Login or SignUp Page$",
+    "steps": [
+      {
+        "name": "I am on FaceBook Login or SignUp Page",
+        "aggregatedDurations": {
+          "average": 0.0004327,
+          "median": 0.0004327
+        },
+        "durations": [
+          {
+            "duration": 0.0004327,
+            "location": "src/test/resources/Features/Facebook.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I select gender \"(.*)\"$",
+    "steps": [
+      {
+        "name": "I select gender \"Male\"",
+        "aggregatedDurations": {
+          "average": 0.0624985,
+          "median": 0.0624985
+        },
+        "durations": [
+          {
+            "duration": 0.0624985,
+            "location": "src/test/resources/Features/Facebook.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]

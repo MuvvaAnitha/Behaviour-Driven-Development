@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="43.08446">
+<testcase classname="FaceBook" name="Verify Password Minimum length validation message" time="43.08446">
+<system-out><![CDATA[Given I am on FaceBook Login or SignUp Page.................................passed
+When I click create new account.............................................passed
+And I fill firstname "TestFn"...............................................passed
+And I fill lastName "TestLn"................................................passed
+And I fill mobileNumberOrEmailId "1234567890"...............................passed
+And I fill password "1234" with less than 6 characters......................passed
+And I select date of birth "1990"...........................................passed
+And I select gender "Male"..................................................passed
+When I clicked on signup....................................................passed
+Then validation message "An error occurred. Please try again." should be displayed stating Your password must be at least 6 characters long.passed
+]]></system-out>
+</testcase>
+</testsuite>
